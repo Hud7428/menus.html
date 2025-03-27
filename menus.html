@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menus</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            width: 400px;
+            height: 550px;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #333;
+            color: white;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        #breakfast {
+            background-image: url('https://example.com/breakfast-bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 3px dashed #ffa500;
+        }
+
+        #lunch {
+            background-image: url('https://example.com/lunch-bg.jpg');
+            background-position: center;
+            background-size: cover;
+            border: 4px double #4682b4;
+        }
+
+        #dinner {
+            background-image: url('https://example.com/dinner-bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 2px solid #8b4513;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 18px;
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu" id="breakfast">
+        <h1>Breakfast Menu</h1>
+        <ul>
+            <li>Fluffy Pancakes - $8</li>
+            <li>Bacon & Eggs - $9</li>
+            <li>French Toast - $7</li>
+            <li>Fruit Smoothie - $5</li>
+            <li>Coffee - $3</li>
+        </ul>
+    </div>
+
+    <div class="menu" id="lunch">
+        <h1>Lunch Menu</h1>
+        <ul>
+            <li>Grilled Chicken Salad - $12</li>
+            <li>Turkey Club Sandwich - $10</li>
+            <li>Veggie Wrap - $9</li>
+            <li>Iced Tea - $4</li>
+            <li>Lemonade - $4</li>
+        </ul>
+    </div>
+
+    <div class="menu" id="dinner">
+        <h1>Dinner Menu</h1>
+        <ul>
+            <li>Steak & Potatoes - $18</li>
+            <li>Salmon Fillet - $16</li>
+            <li>Pasta Primavera - $14</li>
+            <li>Red Wine - $6</li>
+            <li>Chocolate Lava Cake - $7</li>
+        </ul>
+    </div>
+</body>
+</html>
